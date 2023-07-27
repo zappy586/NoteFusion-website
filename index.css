@@ -1,0 +1,245 @@
+div.home-parent {
+  background-color: #123989;
+  width: 100%;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  overflow: hidden;
+}
+nav.navbar {
+  width: 100%;
+  height: 43px;
+
+}
+ul div.navs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+}
+
+nav.navbar li {
+  padding: 0px 23px;
+}
+
+nav.navbar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+nav.navbar a:hover {
+  background-color: #5fd528;
+  border-radius: 20px;
+
+}
+
+.note-fusion1 {
+ 
+  font-size: 30px;
+  font-weight: 500;
+}
+
+ul div.navs{
+  display: flex;
+  margin-right: 65px;
+}
+
+nav ul img{
+  margin-right: -12px;
+    /* margin: 0; */
+    margin-left: -40px;
+    width: 122px;
+    height: 73px;
+    margin-top: 10px;
+}
+
+/*<---------------------------------------NoteFousion-----------------------------------------------------------> */
+div.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+div.home div.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+div.home img{
+  height: 42vmax;
+  width: 49vmax;
+  margin-bottom: 5px;
+
+}
+
+div.texts h1{
+  font-size: 96px;
+  font-weight: 800;
+  margin-bottom: -9px;
+}
+
+div.texts button.try-button {
+  background-color: #0ce847;
+  padding: 10px 10px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 61px;
+  width: 137px;
+}
+
+div.texts button.learn {
+  background-color: #08ff4a00;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  border: 2px solid #fff;
+  border-radius: 61px;
+  width: 137px;
+}
+
+
+div.texts button.learn:hover {
+  background-color: #0ce845;
+}
+
+div.texts button.try-button:hover {
+  background-color: #00051cf3;
+}
+
+div.texts h2 {
+  font-size: var(--font-size-16xl);
+  font-weight: 800;
+  margin: 0px 0px;
+}
+
+div.texts h3 {
+  font-size: 20px;
+  font-weight: 300;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
+/* ----------------Features section -------------- */
+.Inof_phone{
+  display: none;
+}
+div.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(180deg, #0cec44d2, rgba(12, 236, 68, 0));
+  width: 100%;
+  padding: 10px;
+}
+
+div.features img {
+
+  width: 90%;
+
+}
+
+
+div.features h1 {
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+/* ------------------------- Team members ------------------------- */
+div.team {
+  display: flex;
+  flex-direction: column;
+  /* height: 100vh; */
+}
+
+div.team h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 67px;
+  margin-bottom: 140px;
+}
+
+div.team div.members {
+  display: flex;
+  margin-bottom: 138px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.zeeshan, div.abrar, div.mubashir {
+  background-color: #c8daff4d;
+  border-radius: var(--br-8xl);
+  width: 25%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+div.members div img {
+  width: 127px;
+  margin-top: 35px;
+  margin-bottom: 22px;
+}
+div.members h3{
+  margin: 0px;
+    margin-bottom: 10px;
+}
+div.members i{
+  margin: 0px;
+    margin-bottom: 24px;
+}
+/* ----------------footer section --------------- */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #25f459;
+}
+
+footer img {
+  width: 135px;
+  margin-top: 40px;
+}
+
+footer div.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+div.links a{
+  margin: 5px;
+}
+div.links a img {
+  height: 3em;
+  width: 3em;
+  border-radius: 10px;
+}
+
+footer h1 {
+  font-size: 66.89px;
+  font-weight: 800;
+  color: #0a0a0a;
+}
+
+
